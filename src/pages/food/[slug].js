@@ -33,6 +33,7 @@ export const getStaticPaths = async () => {
 
     return {
       props: { cookingRecipes: items[0] },
+      revalidate: 1
     };
   }
  
