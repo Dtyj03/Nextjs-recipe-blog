@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav>
         <div>
             <Link href="/">
-            <Image src="/guybakijng.png" width={100} height={100} className="p-2 ml-12 -mb-12 "/>
+            <Image src="/guybakijng.png" alt="Description" width={100} height={100} className="p-2 ml-12 -mb-12 "/>
             </Link>
          </div>
          <div className="flex justify-end p-2 font-mono text-2xl border-b-2 border-black border-solid ">
