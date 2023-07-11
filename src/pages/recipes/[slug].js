@@ -48,7 +48,7 @@ export const getStaticPaths = async () => {
       <div className="flex flex-col items-center leading-8 text-black"> 
         <div className="flex flex-col items-center">
           <Image 
-          src ={ 'https:' + featuredImage.fields.file.url} width={600} height={100}
+          src ={ 'https:' + featuredImage.fields.file.url} alt="Description" width={600} height={100}
           // width={featuredImage.fields.file.details.image.width}
           // height={featuredImage.fields.file.details.image.height}
           className="mt-2 rounded-2xl -rotate-2"/>
