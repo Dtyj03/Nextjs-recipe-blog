@@ -16,11 +16,11 @@ export default function FoodCard({ cookingRecipes }) {
           className="object-fill w-64 h-64 rounded-lg"
         />
       </div>
-      <div className="relative m-auto -mt-10 -mr-6 bg-orange-400 rounded-md shadow-sm content shadow-slate-950">
+      <div className="relative m-auto -mt-10 bg-orange-400 rounded-md shadow-sm ">
         {/*content */}
         <div className="p-4 text-black -pb-4 ">
           {/*info */}
-          <h2 className="text-3xl ">{title}</h2>
+          <h2 className="text-2xl ">{title}</h2>
           <p className="text-gray-600">Estimated cooking time ( {cookingTime} minutes )</p>
         </div>
 

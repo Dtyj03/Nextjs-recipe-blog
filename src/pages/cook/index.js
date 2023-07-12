@@ -33,7 +33,7 @@ export default function FoodPage({cookingRecipes}) {
       </Head>
 
       
-      <div className="grid items-center justify-center grid-cols-4 gap-24 mt-24 text-center">
+      <div className="grid grid-cols-4 gap-16 p-8 mt-24 text-center">
         {cookingRecipes.map(cookingRecipes =>(
           <FoodCard key={cookingRecipes.sys.id} cookingRecipes={cookingRecipes}/>
         ))}
