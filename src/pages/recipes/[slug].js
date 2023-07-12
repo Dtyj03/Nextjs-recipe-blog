@@ -32,6 +32,15 @@ export const getStaticPaths = async () => {
   
     });
 
+    if (!items.length){
+      return {
+        redirect:{
+          destination: "/recipes",
+          permanent: false
+        }
+      }
+    }
+
     return {
       props: { recipe: items[0] },
       revalidate: 1

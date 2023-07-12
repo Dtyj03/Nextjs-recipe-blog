@@ -18,7 +18,7 @@ export const getStaticPaths = async () => {
       params: { slug: item.fields.slug },
     };
   });
-
+  
   return {
     paths: paths,
     fallback: true,
@@ -31,6 +31,17 @@ export const getStaticPaths = async () => {
       "fields.slug": params.slug,
   
     });
+    
+
+    if (!items.length){
+      return {
+        redirect:{
+          destination: "/recipes",
+          permanent: false
+        }
+      }
+    }
+
 
     return {
       props: { cookingRecipes: items[0] },
