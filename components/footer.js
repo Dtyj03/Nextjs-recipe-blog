@@ -6,7 +6,7 @@ const Footer = () => {
         //     @2023 Bakey. Self-Made Recipe
         // </div>
 
-        <footer className="fixed bottom-0 left-0 w-full py-2 text-center text-black border-t-2 border-black bg-gray-orange-400">
+        <footer className="bottom-0 left-0 w-full py-2 pb-10 text-center text-black border-t-2 border-black mt-60 bg-gray-orange-400">
         <div className="container mx-auto">
           <p className="mt-2">@2023 Bakey. Self-Made Recipe</p>
         </div>

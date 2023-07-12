@@ -72,8 +72,8 @@ export const getStaticPaths = async () => {
           <p>(Approx {cookingTime} minutes to cook) </p>
           <h2 className="mb-4 text-3xl underline underline-offset-8">Ingredients</h2>
           {ingredients.map((ing, index) => (
-  <ol key={index} className="before:content-['✔️'] mt-4">
-    <li>{ing}</li>
+  <ol key={index} >
+    <li className="before:content-['✔️'] mt-4">{ing}</li>
   </ol>
 ))}
 
