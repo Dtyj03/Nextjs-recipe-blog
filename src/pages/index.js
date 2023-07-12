@@ -35,7 +35,7 @@ export default function Home({recipe}) {
         <title>Recipe Blog | Home</title>
       </Head>
       <div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-24">
         <Image src="/guybakijng.png" alt="Description of the image" width={128} height={96} className="p-4 -mb-12 " />
           <h1 className="mt-24 text-5xl font-bold text-center text-black hover:text-orange-400">
             {" "}

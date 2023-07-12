@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navbar = () => {
     return ( 
-    <nav>
+    <nav >
         <div>
             <Link href="/">
             <Image src="/guybakijng.png" alt="Description" width={100} height={100} className="p-2 ml-12 -mb-12 "/>
